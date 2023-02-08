@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class hashmap {
+public class Hashmap {
     public static void main(String[] args) {
         Logger l=Logger.getLogger("kitty");
         HashMap<Integer, String> hmap = new HashMap<Integer, String>();
@@ -13,7 +13,7 @@ public class hashmap {
         hmap.put(1003,"Lord Of The Rings");
         hmap.put(1004,"Harry Potter");
         hmap.put(1005,"5am club");
-        l.info("Initial Hash Map :"+hmap);
+        l.log(Level.INFO,() ->"Initial Hash Map :"+hmap);
         hmap.remove(1002);
         l.log(Level.INFO,() ->"Removing using key  :"+hmap);
         hmap.remove("Wings of fire");
