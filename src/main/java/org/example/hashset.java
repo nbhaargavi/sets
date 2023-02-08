@@ -2,7 +2,7 @@ package org.example;
 import java.util.*;
 import java.util.logging.*;
 import java.util.logging.Logger;
-public class hashset {
+public class Hashset {
     public static void main(String[] args)
     {
         Logger l=Logger.getLogger("kitty");
