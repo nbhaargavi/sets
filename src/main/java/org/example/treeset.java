@@ -3,7 +3,7 @@ import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class treeset {
+public class Treeset {
     public static void main(String[] args) {
         Logger l=Logger.getLogger("kitty");
         TreeSet<String> tset = new TreeSet<String>();
